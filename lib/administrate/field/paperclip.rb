@@ -14,6 +14,11 @@ module Administrate
       delegate :url, to: :data
 
       def thumbnail
+        puts "-------------"
+        puts data
+        puts "-------------"
+        puts data.url
+        puts "-------------"
         style(thumbnail_style)
       end
 
